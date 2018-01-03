@@ -1,4 +1,5 @@
-﻿IDENTIFICATION DIVISION.
+﻿* wczyta liczbę całkowitą i wypisze, czy jest ona większa od 5
+IDENTIFICATION DIVISION.
 PROGRAM-ID. HELLO-WORLD.
 DATA DIVISION.
     WORKING-STORAGE SECTION.

@@ -1,0 +1,18 @@
+﻿* wypisze na ekran wszystkie potęgi liczby 2, które nie przekraczają 2010
+IDENTIFICATION DIVISION.
+PROGRAM-ID. HELLO-WORLD.
+DATA DIVISION.
+    WORKING-STORAGE SECTION.
+
+         01 VAL1 PIC 9(5) VALUE 1. 
+         01 VAL2 PIC 9(5) VALUE 0. 
+         01 VAL3 PIC 9(5) VALUE 0. 
+        
+PROCEDURE DIVISION.
+   
+    PERFORM UNTIL VAL2 > 2010
+        COMPUTE VAL2 = VAL1 * VAL1 + VAL2
+        ADD 1 TO VAL1  
+        COMPUTE VAL3 = VAL1 * VAL1
+        DISPLAY VAL2
+    END-PERFORM.

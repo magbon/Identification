@@ -1,4 +1,5 @@
-﻿	IDENTIFICATION DIVISION.
+﻿* wczyta liczbę całkowitą i wypisze, czy jest ona dodatnia czy ujemna
+	IDENTIFICATION DIVISION.
 	PROGRAM-ID. HELLO-WORLD.
 	DATA DIVISION.
     	WORKING-STORAGE SECTION.
